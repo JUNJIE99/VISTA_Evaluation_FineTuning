@@ -1,4 +1,4 @@
-<h1 align="center">VISTA_Evaluation</h1>
+<h1 align="center">The Evaluation and Training Code of VISTA</h1>
 <p align="center">
     <a href="https://arxiv.org/abs/2406.04292">
             <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2406.04292-B31B1B.svg">
@@ -20,7 +20,7 @@
     </a>
 </p>
 
-This repository contains the evaluation code and datasets for reproducing the results presented in the ACL 2024 paper, [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://arxiv.org/abs/2406.04292). The original code of VISTA (also known as Visualized BGE) can be found in [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/visual).
+This repository contains the evaluation code, fine-tuning code and datasets for reproducing the results presented in the ACL 2024 paper, [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://arxiv.org/abs/2406.04292). The original code of VISTA (also known as Visualized BGE) can be found in [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/visual).
 
 ### Usage
 
