@@ -1,4 +1,4 @@
-<h1 align="center">The Evaluation and Training Code of VISTA</h1>
+<h1 align="center">The Evaluation and Fine-tuning Code of VISTA</h1>
 <p align="center">
     <a href="https://arxiv.org/abs/2406.04292">
             <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2406.04292-B31B1B.svg">
