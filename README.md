@@ -22,7 +22,7 @@
 
 This repository contains the evaluation code, fine-tuning code and datasets for reproducing the results presented in the ACL 2024 paper, [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://arxiv.org/abs/2406.04292). The original code of VISTA (also known as Visualized BGE) can be found in [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/visual).
 
-### Usage
+### Evaluation
 
 Please follow the steps below to reproduce the results of Visualized-BGE-M3 on the WebQA dataset in the zero-shot evaluation setting:
 
@@ -34,3 +34,20 @@ Please follow the steps below to reproduce the results of Visualized-BGE-M3 on t
 3. Configure the paths for the model weights, image directory and ```.jsonl``` files in ```eval_webqa.py```. Then, run ```eval_webqa.py```. The corresponding result in the paper is the Hybrid Corpus Recall@5.
 
 We will continue to organize and upload more datasets and related code. If you have any questions or encounter any issues, please feel free to raise an issue.
+
+### Fine-tuning
+We have released the core code for fine-tuning VISTA, which includes the Stage2-training phase and downstream task fine-tuning as detailed in our paper. You can comprehend the configuration of various training parameters by referring to the bash scripts in the provided folder. It's important to note that during the Stage2-training phase, we utilized a multi-task alternating training approach, and the dataset file employs a relatively complex invocation strategy. As such, it's crucial that you set the dataloader_num_worker to 1, as failing to do so may cause the code to malfunction.
+
+You'll find the fine-tune data format of the CIRR dataset in the downstream fine-tuning folder. We encourage you to refer to this and the dataset file, and adjust it to suit your specific requirements.
+
+
+## Citation
+If you find this repository useful, please consider giving a star ⭐ and citation
+```
+@article{zhou2024vista,
+  title={VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval},
+  author={Zhou, Junjie and Liu, Zheng and Xiao, Shitao and Zhao, Bo and Xiong, Yongping},
+  journal={arXiv preprint arXiv:2406.04292},
+  year={2024}
+}
+```
