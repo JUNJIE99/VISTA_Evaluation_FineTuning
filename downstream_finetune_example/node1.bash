@@ -17,6 +17,7 @@ BSZ_PERGPU=30
 LR=2e-5
 
 Training_Dir= #your training dir
+DeepSpeedConfig= #your deepspeed config file
 cd $Training_Dir
 # Data and model
 
@@ -49,7 +50,7 @@ full_options="
   --train_vision_tower True \
   --resume_path $RESUME_PATH \
   --save_steps $SAVE_STEPS \
-  --deepspeed ./EVA-CLIP/rei/training/deepspeed_config.json \
+  --deepspeed $DeepSpeedConfig \
   --gradient_checkpointing \
   "
 
