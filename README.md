@@ -22,7 +22,7 @@
 
 This repository contains the evaluation code, fine-tuning code and datasets for reproducing the results presented in the ACL 2024 paper, [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://arxiv.org/abs/2406.04292). 
 
-**The original inference code of VISTA (also known as Visualized BGE) can be found in [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/visual_bge).**
+**📢 The original inference code of VISTA (also known as Visualized BGE) can be found in [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/visual_bge).**
 
 ### Evaluation
 
